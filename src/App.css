@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
 #root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+.price{
+    color: #fc3b00;
+}
+.desc {
+    color: #242323;
+}
+.btn{
+    background-color: #fc7100;
+    padding: 7px 17px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+}
+.bag{
+    background-color: #aaa9a9;
+}
